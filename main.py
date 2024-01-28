@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 
 link_to_auction = 'https://miamidade.realforeclose.com/index.cfm?zaction=AUCTION&zmethod=PREVIEW&AuctionDate=01/08/2024'
-chrome_driver_path = 'C:\Development\chromedriver-win64\chromedriver.exe'
+chrome_driver_path = 'Chrome_driver\chromedriver.exe'
 service = ChromeService(executable_path=chrome_driver_path)
 driver = webdriver.Chrome()
 driver.get(link_to_auction)
